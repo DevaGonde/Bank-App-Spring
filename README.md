@@ -129,5 +129,5 @@ src
 
 ## Author
 - Name: Devendra R. Gonde
-- LinkedIn: linkedin.com/in/devendragonde/
-- GitHub: github.com/DevaGonde
+- LinkedIn: ```` linkedin.com/in/devendragonde/````
+- GitHub: ```` github.com/DevaGonde ````
