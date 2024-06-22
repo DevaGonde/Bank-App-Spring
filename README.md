@@ -33,7 +33,7 @@ git clone https://github.com/DevaGonde/Bank-App-Spring.git
 cd Bank-App-Spring
 ````
 
-### Configure MySQL Database
+### 2. Configure MySQL Database
 
 Create a MySQL database named bank_app and update application.properties with your MySQL username and password.
 
@@ -46,15 +46,15 @@ spring.jpa.hibernate.ddl-auto=update
 spring.jpa.show-sql=true
 spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL5Dialect
 ````
-# Build and Run the Application
+### 3. Build and Run the Application
 
 ````
 mvn clean install
 mvn spring-boot:run
 ````
 
-## API Endpoints
-# Add a New Account
+# API Endpoints
+### Add a New Account
 - URL: /account
 - Method: POST
 Request Body:
@@ -66,7 +66,7 @@ json
   "balance": 10000
 }
 ````
-# Delete an Account
+### Delete an Account
 - URL: /account/{id}/delete
 - Method: DELETE
 Deposit Money
@@ -80,7 +80,7 @@ Copy code
   "amount": 500
 }
 ````
-# Withdraw Money
+### Withdraw Money
 - URL: /account/{id}/withdraw
 - Method: PUT
 - Request Body:
@@ -90,7 +90,7 @@ json
   "amount": 300
 }
 ```
-# Find All Accounts
+### Find All Accounts
 - URL: /account/getAll
 - Method: GET
 - Find Account By ID
