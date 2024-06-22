@@ -1,14 +1,13 @@
 package com.Deva.Bank_app.model;
 
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 @NoArgsConstructor
 @AllArgsConstructor
+@Getter
+@Setter
 @Entity
-@Data
 public class Account {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
